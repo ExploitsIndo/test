@@ -5,7 +5,7 @@ from PIL import Image, PngImagePlugin
 
 def main():
     if args.url:
-        headers = {'User-Agent': 'DarkSide1337 https://darkside1337.com - CVE-2022-44268'}
+        headers = {'User-Agent': 'Shift Security Consulting https://shiftsecurityconsulting.com - CVE-2022-44268'}
         response = requests.get(args.url)
         img = Image.open(io.BytesIO(response.content))
 
